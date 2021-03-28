@@ -1,6 +1,5 @@
 package id.dondon.leetcode.easy;
 
-import id.dondon.leetcode.easy.SearchInsertPosition;
 import org.junit.Assert;
 import org.junit.Test;
 
