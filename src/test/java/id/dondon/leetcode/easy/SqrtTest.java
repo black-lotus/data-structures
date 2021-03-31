@@ -12,9 +12,9 @@ public class SqrtTest {
   @Test
   public void test() {
     List<Pair<Integer, Integer>> cases = Arrays.asList(
-        new Pair<>(9, 3),
-        new Pair<>(8, 2),
-        new Pair<>(2147395599, 46339)
+        new Pair<Integer, Integer>(9, 3),
+        new Pair<Integer, Integer>(8, 2),
+        new Pair<Integer, Integer>(2147395599, 46339)
     );
 
     Sqrt solution = new Sqrt();

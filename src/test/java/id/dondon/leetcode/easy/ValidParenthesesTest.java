@@ -12,13 +12,13 @@ public class ValidParenthesesTest {
   @Test
   public void test() {
     List<Pair<String, Boolean>> cases = Arrays.asList(
-        new Pair<>("(((((())))))", true),
-        new Pair<>("()()()()", true),
-        new Pair<>("(((((((()", false),
-        new Pair<>("((()(())))", true),
-        new Pair<>("{}", true),
-        new Pair<>("[]", true),
-        new Pair<>("{]", false)
+        new Pair<String, Boolean>("(((((())))))", true),
+        new Pair<String, Boolean>("()()()()", true),
+        new Pair<String, Boolean>("(((((((()", false),
+        new Pair<String, Boolean>("((()(())))", true),
+        new Pair<String, Boolean>("{}", true),
+        new Pair<String, Boolean>("[]", true),
+        new Pair<String, Boolean>("{]", false)
     );
 
     ValidParentheses solution = new ValidParentheses();

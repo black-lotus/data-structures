@@ -8,7 +8,7 @@ public class RomanToInteger {
   private Map<Character, Integer> maps;
 
   public RomanToInteger() {
-    this.maps = new HashMap<>();
+    this.maps = new HashMap<Character, Integer>();
     this.maps.put('I', 1);
     this.maps.put('V', 5);
     this.maps.put('X', 10);

@@ -12,8 +12,8 @@ public class ClimbingStairsTest {
   @Test
   public void test() {
     List<Pair<Integer, Integer>> cases = Arrays.asList(
-        new Pair<>(2, 2),
-        new Pair<>(3, 3)
+        new Pair<Integer, Integer>(2, 2),
+        new Pair<Integer, Integer>(3, 3)
     );
 
     ClimbingStairs solution = new ClimbingStairs();
