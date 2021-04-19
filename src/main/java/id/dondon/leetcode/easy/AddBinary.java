@@ -1,5 +1,11 @@
 package id.dondon.leetcode.easy;
 
+/**
+ * Given two binary strings a and b
+ * return their sum as a binary string.
+ *
+ * Detail https://leetcode.com/problems/add-binary/
+ * */
 public class AddBinary {
 
   public String addBinary(String a, String b) {
